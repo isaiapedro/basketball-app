@@ -1,0 +1,32 @@
+export interface Player {
+  index: number;
+  name: string;
+  Age: number;
+  Team: string;
+  Pos: string;
+  G: number;
+  GS: number;
+  MP: number;
+  FG: number;
+  FGA: number;
+  FG_per: number;
+  threeP: number;
+  threePA: number;
+  threeP_per: number;
+  twoP: number;
+  twoPA: number;
+  twoP_per: number;
+  eFG_per: number;
+  FT: number;
+  FTA: number;
+  FT_per: number;
+  ORB: number;
+  DRB: number;
+  TRB: number;
+  AST: number;
+  STL: number;
+  BLK: number;
+  TOV: number;
+  PF: number;
+  PTS: number;
+}

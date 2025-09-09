@@ -1,0 +1,4 @@
+{"timestamp":"2025-09-09T02:40:35.944387","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-09T02:40:35.950788","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/python_to_postgres_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-09T02:40:38.993169","level":"error","event":"No data received from XComs. Halting transformation.","logger":"root"}
+{"timestamp":"2025-09-09T02:40:38.993612","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

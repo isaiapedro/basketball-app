@@ -1,0 +1,8 @@
+{"timestamp":"2025-09-09T02:34:19.212087","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-09T02:34:19.237815","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/python_to_postgres_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-09T02:34:35.999444","level":"info","event":"Scraping data for the year: 2023","logger":"root"}
+{"timestamp":"2025-09-09T02:34:36.889897","level":"warning","event":"Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/opt/airflow/dags/scripts/teams.py","lineno":44,"logger":"py.warnings"}
+{"timestamp":"2025-09-09T02:34:37.222621","level":"info","event":"Extracted data for Eastern Conference.","logger":"root"}
+{"timestamp":"2025-09-09T02:34:37.233845","level":"warning","event":"Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/opt/airflow/dags/scripts/teams.py","lineno":56,"logger":"py.warnings"}
+{"timestamp":"2025-09-09T02:34:37.245228","level":"info","event":"Extracted data for Western Conference.","logger":"root"}
+{"timestamp":"2025-09-09T02:34:37.372155","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
